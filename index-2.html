@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-image: url('softexpert.png');
+            background-size: 100%;
+            height: 9000px;
+        }
+        #container-icones-flutuantes{ 
+            position:fixed;
+            margin: 35vh 0 0 0px;
+        }
+        #container-icones-flutuantes ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        #container-icones-flutuantes ul li{
+            height: 34px;
+            margin: 4px;
+        }
+        #container-icones-flutuantes ul li img{
+            width: 34px;
+            transition: 50ms;
+        }
+        #container-icones-flutuantes ul li img.whatsapp{
+            width: 70px;
+            margin: 8px 0 0 0;
+            transition: 50ms;
+        }
+        #container-icones-flutuantes ul li img:hover, #container-icones-flutuantes ul li img.whatsapp:hover{
+            cursor: pointer;
+            transition: 0.20s;
+            margin-left: 4px;
+        }
+    </style>
+    <title>Icone Lateral</title>
+</head>
+<body>
+    
+    <div id="container-icones-flutuantes">
+        <ul>
+            <li><a href="https://www.facebook.com/softexpertsoftware/" target="_blank"><img src="facebook-1.png" alt=""></li></a>
+            <li><a href="https://twitter.com/softexpert" target="_blank"><img src="twitter-1.png" alt=""></li></a>
+            <li><a href="https://br.linkedin.com/company/softexpert-software" target="_blank"><img src="linkedin-1.png" alt=""></li></a>
+            <li><a href="https://www.youtube.com/user/SoftExpertSoftware" target="_blank"><img src="youtube-1.png" alt=""></li></a>
+            <li><a href="https://www.instagram.com/softexpert/" target="_blank"><img src="instagram-3.png" alt=""></li></a>
+            <li><a href="https://api.whatsapp.com/send?phone=555547991055285" target="_blank"><img class="whatsapp" src="whatsapp.webp" alt=""></li></a>
+        </ul>
+    </div>
+
+</body>
+</html>

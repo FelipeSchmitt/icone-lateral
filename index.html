@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-image: url('softexpert.png');
+            background-size: 100%;
+            height: 9000px;
+        }
+        @media screen and (max-width: 1700px) {
+            body{
+            padding: 0;
+            margin: 0;
+            background-image: url('softexpert-mobile.png');
+            background-size: 100%;
+            height: 9000px;
+        }
+        }
+        #container-icones-flutuantes{ 
+            position:fixed;
+            margin: 35vh 0 0 0px;
+        }
+        #container-icones-flutuantes ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        #container-icones-flutuantes ul li{
+            height: 42px;
+        }
+        #container-icones-flutuantes ul li img{
+            width: 40px;
+            border-style: solid;
+            border-color: white;
+            border-width: 2px;
+        }
+        #container-icones-flutuantes ul li img.whatsapp{
+            width: 70px;
+            margin: 16px 0 0 8px;
+            border: none;
+        }
+        #container-icones-flutuantes ul li img:hover, #container-icones-flutuantes ul li img.whatsapp:hover{
+            cursor: pointer;
+        }
+    </style>
+    <title>Icone Lateral</title>
+</head>
+<body>
+    
+    <div id="container-icones-flutuantes">
+        <ul>
+            <li><img src="facebook-1.png" alt=""></li>
+            <li><img src="twitter-1.png" alt=""></li>
+            <li><img src="linkedin-1.png" alt=""></li>
+            <li><img src="youtube-1.png" alt=""></li>
+            <li><img src="instagram-3.png" alt=""></li>
+            <li><img class="whatsapp" src="whatsapp.webp" alt=""></li>
+        </ul>
+    </div>
+
+</body>
+</html>
